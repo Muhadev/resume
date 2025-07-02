@@ -1,0 +1,175 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Fayemi Muhammed} & Email : muhammedfayemi@gmail.com\\
+  \href{https://www.linkedin.com/in/fayemi-muhammed/}{{https://www.linkedin.com/in/fayemi-muhammed/}} & Mobile : 08136211748 \\
+\end{tabular*}
+
+
+%-----------SKILLS-----------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeItem{\textbf{Backend:} Python, Django, Flask, Go, Node.js, RESTful APIs, GraphQL, SQLAlchemy, OAuth 2.0, JWT Authentication}
+    \resumeItem{\textbf{Frontend:} JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap, Responsive Design, Component Libraries}
+    \resumeItem{\textbf{Databases:} MySQL, PostgreSQL, Redis, Database Optimization, Query Performance Tuning}
+    \resumeItem{\textbf{DevOps \& Tools:} Docker, CI/CD Pipelines, Git, Agile/Scrum, AWS, Deployment Automation, Code Review Leadership}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Optisoft Technology Company Ltd}{Lagos, Nigeria}
+      {Junior Software Engineer}{Jan. 2025 – June 2025}
+      \resumeItemListStart
+        \resumeItem{Built on the existing loan servicing infrastructure of Rosabon Financial Services (RFS), a CBN-licensed non-bank financial intermediary, enhancing modules for loan origination, repayment tracking, and credit evaluation workflows.}
+        \resumeItem{Integrated automated credit risk checks, document verification, and compliance flows in line with CBN regulations.}
+        \resumeItem{Spearheaded an admin dashboard enabling 30+ staff to manage customer onboarding, loan approvals, repayments, and access control roles.}
+        \resumeItem{Improved backend API response time by 45\% through database schema restructuring, indexed queries, and optimized Django REST serializers.}
+        \resumeItem{Led API testing and OpenAPI documentation to support collaborative development in a fast-paced agile team.}
+        \resumeItem{Tech Stack: Python, Django, Flask, React, TypeScript, Docker}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Lasaco Assurance Plc}{Lagos, Nigeria}
+      {Contract Software Engineer}{June 2024 – Dec. 2024}
+      \resumeItemListStart
+        \resumeItem{Modernized Claims Management: Migrated legacy claims workflows to a digital portal serving 500+ customers monthly, reducing claim processing time by 60\% using Django REST Framework and React.}
+        \resumeItem{Deployed Automated Tax Engine: Established tax calculation system supporting 10+ regional tax policies, eliminating manual calculation errors and reducing policy issuance time by 65\% for 1,000+ monthly policies.}
+        \resumeItem{Digitized Document Generation: Automated creation of 1,000+ policy documents monthly with dynamic templates and digital signatures, improving accuracy by 40\% and reducing processing time by 70\%.}
+        \resumeItem{Strengthened System Security: Integrated JWT-based authentication with granular role-based access control for underwriters, claim agents, and clients, reducing security incidents by 90\%.}
+        \resumeItem{Tech Stack: Python, Django, DRF, React, Bootstrap, PostgreSQL}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Africa Agility}{Lagos, Nigeria}
+      {Software Engineer \& Mentor}{July 2023 – Feb. 2025}
+      \resumeItemListStart
+        \resumeItem{Facilitated Technical Bootcamps: Spearheaded training sessions for 50+ aspiring female developers, achieving 80\% completion rate and 60\% job intern placement success through comprehensive full-stack curriculum.}
+        \resumeItem{Provided Technical Mentorship: Guided 15+ developer teams through project delivery, reviewed 100+ code commits, and coached deployment strategies resulting in 95\% successful project launches.}
+        \resumeItem{Established Development Standards: Created coding guidelines and best practices documentation, reducing onboarding time for new developers by 50\%.}
+        \resumeItem{Tech Stack: React, Node.js, TypeScript, MySQL, Redis, Git}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ALX Africa}{Remote}
+      {Software Engineering Intern}{Sept. 2024 – Dec. 2024}
+      \resumeItemListStart
+        \resumeItem{Optimized Student Portal Performance: Refactored lesson tracking and dashboard components, reducing page load times by 40\% and improving user experience for 1,000+ active students.}
+        \resumeItem{Collaborated in Cross-Functional Teams: Partnered with 10+ mentors and interns in agile development cycles, delivering 5+ major features and resolving 50+ technical debt issues.}
+        \resumeItem{Tech Stack: Python, Flask, React, Next.js, TypeScript, MySQL, Redis}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Osun State University (UNIOSUN)}{Osogbo, Osun State}
+      {B.Eng in Mechanical Engineering}{Oct. 2017 – Nov. 2022}
+    \resumeSubheading
+      {ALX Africa}{Remote / Africa-wide}
+      {Software Engineering Program}{July 2023 – Aug. 2024}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeItem{TechMeet.io – Tech Event Management Platform — \href{https://tech-meet-io.vercel.app/}{Demo} | \href{https://github.com/Muhadev/TechMeet.io}{GitHub}: Architected full-stack event management platform with QR-code ticketing system, OAuth integration, and role-based access control, successfully managing 10+ events with 30+ attendees.}
+    \resumeItem{Nexora – Unified Component Explorer — \href{https://ne-xora.vercel.app/}{Demo} | \href{https://github.com/Muhadev/Nexora}{GitHub}: Developed component discovery platform aggregating 500+ UI components from Shadcn/UI, Magic UI, and Aceternity UI, reducing developer search time by 60\% with AI-powered recommendations via Gemini API integration.}
+    \resumeItem{PayForMe – Crowdfunding Platform — Demo | \href{https://github.com/Muhadev/PayForMe}{GitHub}: Created secure donation platform with Flask and Stripe integration, facilitating \$10+ in donations across 2+ campaigns with 99.9\% payment success rate and real-time progress tracking.}
+    \resumeItem{Simple Shell – Custom Unix Shell — \href{https://github.com/Muhadev/simple_shell}{GitHub}: Collaborated on C-based command interpreter supporting advanced features like piping, redirection, and built-in commands, demonstrating systems programming expertise and effective team collaboration.}
+    \resumeItem{CryptoApp – Cryptocurrency Dashboard — \href{https://kryptoeverseapp.netlify.app/}{Demo} | \href{https://github.com/Muhadev/react-redux-cryptoapp}{GitHub}: Developed React + Redux dashboard with real-time cryptocurrency data and news integration from Coinranking/Bing APIs, featuring interactive charts and advanced filtering capabilities.}
+    \resumeItem{ImageKit – Image Optimization Tool — \href{https://image-kit-gold.vercel.app/}{Demo} | \href{https://github.com/Muhadev/image-kit}{GitHub}: Designed React-based image processing application with compression and cropping features, achieving 40\% average file size reduction while maintaining quality standards.}
+  \resumeSubHeadingListEnd
+  
+%-----------ACHIEVEMENTS-----------------
+\section{Leadership \& Achievements}
+  \resumeSubHeadingListStart
+    \resumeItem{Committee Member – Google Developer Group (GDG) Osogbo: Organized 5+ technical events and coordinated DevFest 2024 logistics, engaging 200+ developers and fostering community growth in local tech ecosystem.}
+    \resumeItem{2nd Place – Osun Tech Fest Hackathon 2024: Led 4-member development team in delivering health-tech MVP within 24 hours, demonstrating rapid prototyping and leadership capabilities under pressure.}
+    \resumeItem{2nd Place – RTC Hackathon 2024: Architected full-stack logistics solution MVP, securing 2nd position among 20+ competing teams through innovative problem-solving and technical execution.}
+    \resumeItem{Technical Mentor: Successfully guided 15+ new developers through career transitions, with 90\% achieving successful intern job placements in tech companies within 6 months.}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
