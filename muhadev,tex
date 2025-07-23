@@ -75,7 +75,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\Large Fayemi Muhammed} & Email : muhammedfayemi@gmail.com\\
-  \href{https://www.linkedin.com/in/fayemi-muhammed/}{{https://www.linkedin.com/in/fayemi-muhammed/}} & Mobile : 08136211748 \\
+  \href{https://www.linkedin.com/in/fayemi-muhammed/}{{https://www.linkedin.com/in/fayemi-muhammed/}} & Mobile : +2348136211748 \\
 \end{tabular*}
 
 
@@ -95,7 +95,7 @@
 
     \resumeSubheading
       {Optisoft Technology Company Ltd}{Lagos, Nigeria}
-      {Junior Software Engineer}{January 2025 – June 2025}
+      {Software Engineer}{January 2025 – June 2025}
       \resumeItemListStart
         \resumeItem{Built on the existing loan servicing infrastructure of Rosabon Financial Services (RFS), a CBN-licensed non-bank financial intermediary, enhancing modules for loan origination, repayment tracking, and credit evaluation workflows.}
         \resumeItem{Integrated automated credit risk checks, document verification, and compliance flows in line with CBN regulations.}
