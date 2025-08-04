@@ -82,10 +82,10 @@
 %-----------SKILLS-----------------
 \section{Technical Skills}
   \resumeSubHeadingListStart
-    \resumeItem{\textbf{Backend:} Python, Django, Flask, Go, Node.js, RESTful APIs, GraphQL, SQLAlchemy, OAuth 2.0, JWT Authentication}
+    \resumeItem{\textbf{Backend:} Python(Django, Flask, FastAPI), Go, Node.js, RESTful APIs, GraphQL, SQLAlchemy, OAuth 2.0, JWT Authentication}
     \resumeItem{\textbf{Frontend:} JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap, Responsive Design, Component Libraries.}
     \resumeItem{\textbf{Databases:} MySQL, PostgreSQL, Redis, Database Optimization, Query Performance Tuning}
-    \resumeItem{\textbf{DevOps \& Tools:} Docker, CI/CD Pipelines, Git, Agile/Scrum, AWS, Deployment Automation, Code Review Leadership}
+    \resumeItem{\textbf{DevOps \& Tools:} Docker, CI/CD Pipelines, Git, Agile/Scrum, RabbitMQ, AWS, Deployment Automation, Code Review Leadership}
   \resumeSubHeadingListEnd
 
 
@@ -97,12 +97,12 @@
       {Optisoft Technology Company Ltd}{Lagos, Nigeria}
       {Software Engineer}{January 2025 – June 2025}
       \resumeItemListStart
-        \resumeItem{Built on the existing loan servicing infrastructure of Rosabon Financial Services (RFS), a CBN-licensed non-bank financial intermediary, enhancing modules for loan origination, repayment tracking, and credit evaluation workflows.}
-        \resumeItem{Integrated automated credit risk checks, document verification, and compliance flows in line with CBN regulations.}
+        \resumeItem{Built on the existing loan servicing infrastructure of Rosabon Financial Services (RFS), a CBN licensed non bank financial intermediary, enhancing modules for loan origination, repayment tracking, and credit evaluation workflows.}
         \resumeItem{Spearheaded an admin dashboard enabling 30+ staff to manage customer onboarding, loan approvals, repayments, and access control roles.}
         \resumeItem{Improved backend API response time by 45\% through database schema restructuring, indexed queries, and optimized Django REST serializers.}
-        \resumeItem{Led API testing and OpenAPI documentation to support collaborative development in a fast-paced agile team.}
-        \resumeItem{Tech Stack: Python, Django, Flask, React, TypeScript, Docker}
+        \resumeItem{Integrated automated credit risk checks, document verification and compliance flows in line with CBN regulations.}
+        \resumeItem{Co-Led API testing and OpenAPI documentation to support collaborative development in a fast paced agile team.}
+        \resumeItem{Tech Stack: Python, Django, Flask, React, TypeScript, MYSQL,Docker}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -112,8 +112,8 @@
         \resumeItem{Modernized Claims Management: Migrated legacy claims workflows to a digital portal serving 500+ customers monthly, reducing claim processing time by 60\% using Django REST Framework and React.}
         \resumeItem{Deployed Automated Tax Engine: Established tax calculation system supporting 10+ regional tax policies, eliminating manual calculation errors and reducing policy issuance time by 65\% for 1,000+ monthly policies.}
         \resumeItem{Digitized Document Generation: Automated creation of 1,000+ policy documents monthly with templates and digital signatures, improving accuracy by 40\% and reducing processing time by 70\%.}
-        \resumeItem{Strengthened System Security: Integrated JWT-based authentication with granular role-based access control for underwriters, claim agents, and clients, reducing security incidents by 90\%.}
-        \resumeItem{Tech Stack: Python, Django, DRF, React, Bootstrap, PostgreSQL}
+        \resumeItem{Strengthened System Security: Integrated JWT based authentication with granular role based access control for underwriters, claim agents, and clients, reducing security incidents by 90\%.}
+        \resumeItem{Tech Stack: Python, Django, React, FastAPI, Bootstrap, PostgreSQL, Redis, RabbitMQ}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -121,8 +121,8 @@
       {Software Engineering Intern}{September 2024 – December 2024}
       \resumeItemListStart
         \resumeItem{Optimized Student Portal Performance: Refactored lesson tracking and dashboard components, reducing page load times by 40\% and improving user experience for 1,000+ active students.}
-        \resumeItem{Collaborated in Cross-Functional Teams: Partnered with 10+ mentors and interns in agile development cycles, delivering 5+ major features and resolving 50+ technical debt issues.}
-        \resumeItem{Tech Stack: Python, Flask, React, Next.js, TypeScript, MySQL, Redis}
+        \resumeItem{Collaborated in Cross Functional Teams: Partnered with 10+ mentors and interns in agile development cycles, delivering 5+ major features and resolving 50+ technical debt issues.}
+        \resumeItem{Tech Stack: Python, Flask, React, Next.js, Tailwindcss, CI/CD Pipelines, TypeScript, MySQL, Redis}
       \resumeItemListEnd
 
     \resumeSubheading
