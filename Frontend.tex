@@ -1,0 +1,189 @@
+%-------------------------
+% Enhanced Frontend-Focused Resume in LaTeX
+% Author: Fayemi Muhammed
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------Header-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Fayemi Muhammed} & Email: muhammedfayemi@gmail.com \\
+  \href{https://www.linkedin.com/in/fayemi-muhammed/}{linkedin.com/in/fayemi-muhammed} & Mobile: +2348136211748 \\
+\end{tabular*}
+
+%-----------Skills-----------------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+  \resumeItem{\textbf{Frontend:} JavaScript (ES6+), TypeScript, React.js (18+), Next.js (13+), Vue.js, HTML5, CSS3, SASS/SCSS, Tailwind CSS, Bootstrap, Styled Components, Emotion, Material-UI, Ant Design, Chakra UI, Shadcn/UI}
+  \resumeItem{\textbf{State Management:} Redux Toolkit, Zustand, Context API, React Query, SWR, Jotai}
+  \resumeItem{\textbf{Animation \& UI:} Framer Motion, React Spring, Lottie, CSS Animations, GSAP, Intersection Observer API}
+  \resumeItem{\textbf{Backend Integration:} REST APIs, GraphQL, Apollo Client, Axios, Fetch API, WebSockets, Server-Sent Events}
+  \resumeItem{\textbf{Authentication:} JWT, OAuth 2.0, Auth0, NextAuth.js, Firebase Auth, Role-based Access Control (RBAC)}
+  \resumeItem{\textbf{Testing:} Jest, React Testing Library, Cypress, Playwright, Storybook, Vitest, MSW (Mock Service Worker)}
+  \resumeItem{\textbf{Tools \& DevOps:} Git/GitHub, Docker, Webpack, Vite, ESLint, Prettier, Husky, CI/CD (GitHub Actions), Vercel, Netlify, AWS S3, Figma, Adobe XD}
+  \resumeItem{\textbf{Performance:} Code Splitting, Lazy Loading, Web Vitals, Lighthouse, Bundle Analysis, PWA, Service Workers}
+  \resumeItem{\textbf{Accessibility:} WCAG 2.1, ARIA, Screen Readers, Keyboard Navigation, Color Contrast, Semantic HTML}
+\resumeSubHeadingListEnd
+
+%-----------Experience-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Optisoft Technology Limited (Rosabon Financial Services)}{Lagos, Nigeria}
+    {Frontend Engineer}{Jan 2025 – Jun 2025}
+    \resumeItemListStart
+      \resumeItem{Architected and developed the comprehensive internal admin dashboard using React 18 + TypeScript for managing customer onboarding, loan applications, credit scoring, and repayment workflows for Rosabon Financial Services.}
+      \resumeItem{Implemented sophisticated role-based access control (RBAC) system with dynamic routing and component-level permissions for 30+ staff members across different departments (Underwriting, Operations, Customer Service).}
+      \resumeItem{Built real-time loan application tracking system with WebSocket integration, reducing processing time by 35\% and improving staff efficiency through automated notifications and status updates.}
+      \resumeItem{Developed responsive data visualization dashboard using Chart.js and D3.js for loan portfolio analytics, default risk assessment, and financial KPI monitoring with drill-down capabilities.}
+      \resumeItem{Optimized application performance by implementing React Query for server state management, code splitting, and memoization techniques, resulting in 40\% faster load times and improved UX.}
+      \resumeItem{Integrated with core banking APIs and payment gateways, handling sensitive financial data with proper encryption and PCI DSS compliance measures.}
+      \resumeItem{Collaborated with UX designers to implement a design system using Styled Components and Storybook, ensuring consistency across 50+ reusable components.}
+      \resumeItem{Stack: React 18, TypeScript, Redux Toolkit, React Query, Tailwind CSS, Chart.js, D3.js, Styled Components, Storybook, WebSocket, Axios}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Lasaco Assurance Plc}{Lagos, Nigeria}
+    {Frontend Engineer (Contract)}{Jun 2024 – Dec 2024}
+    \resumeItemListStart
+      \resumeItem{Developed comprehensive insurance management portal using React and TypeScript, featuring claims processing, policy management, and customer onboarding workflows for Nigeria's insurance market.}
+      \resumeItem{Built responsive claims dashboard with Bootstrap and custom SCSS themes, implementing complex form validations for motor, fire, marine, and general accident insurance claims with file upload capabilities.}
+      \resumeItem{Implemented secure authentication system with JWT and role-based access for agents, underwriters, and customers, including password policies and session management.}
+      \resumeItem{Created reusable form components with React Hook Form and Yup validation for insurance applications, reducing development time by 50\% and ensuring data consistency.}
+      \resumeItem{Integrated with insurance APIs for premium calculations, policy generation, and claims tracking, handling complex business logic for different insurance products.}
+      \resumeItem{Optimized application for cross-browser compatibility (IE11+, Chrome, Firefox, Safari) and implemented Progressive Web App (PWA) features for offline capability.}
+      \resumeItem{Collaborated with backend team to design RESTful API contracts and implemented comprehensive error handling with user-friendly fallback UIs.}
+      \resumeItem{Stack: React, TypeScript, Bootstrap, SCSS, React Hook Form, Yup, Axios, JWT, PWA, Node.js (API integration)}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {ALX Africa}{Remote}
+    {Frontend Engineer Intern}{Sept 2024 – Dec 2024}
+    \resumeItemListStart
+      \resumeItem{Led frontend architecture refactoring of the student learning management system using React 18 and Next.js 13 with App Router, implementing Server-Side Rendering (SSR) and reducing initial page load time by 40\%.}
+      \resumeItem{Developed responsive layout system using Tailwind CSS and CSS Grid, creating mobile-first designs that improved user engagement by 25\% across 1,000+ active students.}
+      \resumeItem{Implemented interactive learning features including progress tracking, quiz modals, video player integration, and real-time chat using React Context and WebSocket connections.}
+      \resumeItem{Built comprehensive student dashboard with data visualization using Recharts, displaying learning progress, completion rates, and performance analytics with export functionality.}
+      \resumeItem{Enhanced accessibility compliance by implementing ARIA labels, keyboard navigation, and screen reader support, achieving WCAG 2.1 AA standards.}
+      \resumeItem{Integrated with learning analytics APIs and implemented caching strategies using React Query and Redis for improved performance and reduced server load.}
+      \resumeItem{Participated in agile development cycles, conducted code reviews, and mentored junior developers on React best practices and component design patterns.}
+      \resumeItem{Stack: React 18, Next.js 13, TypeScript, Tailwind CSS, Recharts, React Query, WebSocket, Redis, MySQL, Figma}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Africa Agility}{Lagos, Nigeria}
+    {Frontend Mentor \& Senior Educator}{Jul 2023 – Feb 2024}
+    \resumeItemListStart
+      \resumeItem{Mentored and trained 50+ student developers in modern frontend technologies including React, TypeScript, and responsive design principles through hands-on projects and code reviews.}
+      \resumeItem{Designed and delivered comprehensive curriculum covering HTML5/CSS3, JavaScript ES6+, React ecosystem, Git workflows, and deployment strategies with practical assessments.}
+      \resumeItem{Conducted weekly technical sessions on advanced topics including state management, performance optimization, testing strategies, and accessibility best practices.}
+      \resumeItem{Established code review processes and best practices documentation, improving code quality and reducing bug reports by 30\% across student projects.}
+      \resumeItem{Created reusable component library and style guide using Storybook, serving as learning resources for frontend architecture and design systems.}
+      \resumeItem{Organized hackathons and technical workshops, resulting in 15+ students securing internships positions in tech companies.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------Projects-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeItem{\textbf{Nexora – AI-Enhanced UI Component Explorer} — \href{https://ne-xora.vercel.app/}{Live Demo} | \href{https://github.com/Muhadev/Nexora}{GitHub} \\
+  Built an intelligent component discovery platform featuring 500+ curated UI components from Shadcn/UI, Magic UI, and Aceternity UI. Integrated Gemini AI for smart recommendations, advanced filtering, live preview, and one-click code copying. Tech: React, TypeScript, Tailwind CSS, Gemini AI API, Vercel.}
+
+  \resumeItem{\textbf{TechMeet.io – Comprehensive Event Management Platform} — \href{https://tech-meet-io.vercel.app/}{Live Demo} | \href{https://github.com/Muhadev/TechMeet.io}{GitHub} \\
+  Led full-stack development of event platform with QR code ticketing system, OAuth authentication, payment integration, and admin dashboard. Features include real-time attendee tracking, email notifications, and responsive design. Tech: Next.js, TypeScript, Prisma, PostgreSQL, Stripe, NextAuth.js.}
+
+  \resumeItem{\textbf{CryptoVerse – Real-time Cryptocurrency Analytics Dashboard} — \href{https://kryptoeverseapp.netlify.app/}{Live Demo} | \href{https://github.com/Muhadev/react-redux-cryptoapp}{GitHub} \\
+  Developed comprehensive crypto tracking application with real-time price updates, interactive charts, news aggregation, portfolio tracking, and advanced filtering. Implemented Redux for state management and Chart.js for data visualization. Tech: React, Redux, Chart.js, RapidAPI, CSS3.}
+
+  \resumeItem{\textbf{ImageKit – Advanced Image Processing Tool} — \href{https://image-kit-gold.vercel.app/}{Live Demo} | \href{https://github.com/Muhadev/image-kit}{GitHub} \\
+  Created professional image optimization platform with cropping, compression, format conversion, and batch processing. Achieved 40\% file size reduction while maintaining quality. Features drag-and-drop interface and real-time preview. Tech: React, TypeScript, Canvas API, Tailwind CSS, Web Workers.}
+
+  \resumeItem{\textbf{PayForMe – Secure Donation Platform} — \href{https://github.com/Muhadev/PayForMe}{GitHub} \\
+  Developed full-stack donation platform with Stripe payment integration, real-time progress tracking, email notifications, and admin dashboard. Implemented secure payment processing and donor management system. Tech: React, Flask, Stripe API, PostgreSQL, JWT, Email API.}
+
+\resumeSubHeadingListEnd
+
+%-----------Education-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {ALX Africa}{Remote}
+    {Software Engineering Program (Full Stack) - Frontend Specialization}{Jul 2023 – Aug 2024}
+  \resumeSubheading
+    {Osun State University (UNIOSUN)}{Osogbo, Nigeria}
+    {B.Eng, Mechanical Engineering}{Oct 2017 – Nov 2022}
+\resumeSubHeadingListEnd
+
+%-----------Achievements-----------------
+\section{Leadership \& Achievements}
+\resumeSubHeadingListStart
+  \resumeItem{Technical Committee Member – Google Developer Groups (GDG) Osogbo: Organized 5+ major tech events including DevFest 2024 with 200+ attendees, led frontend workshops and React masterclasses.}
+  \resumeItem{2nd Place – Osun Tech Fest Hackathon 2024: Built and pitched a responsive healthtech MVP frontend prototype within 24 hours, focusing on user experience and accessibility.}
+  \resumeItem{Senior Technical Mentor: Successfully guided 15+ junior developers into internship positions through personalized mentoring, mock interviews, portfolio reviews, and hands-on project collaboration.}
+  \resumeItem{Open Source Contributor: Active contributor to React ecosystem packages and maintainer of educational frontend resources with 500+ GitHub stars across repositories.}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
