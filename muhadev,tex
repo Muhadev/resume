@@ -76,16 +76,20 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\Large Fayemi Muhammed} & Email : muhammedfayemi@gmail.com\\
   \href{https://www.linkedin.com/in/fayemi-muhammed/}{{https://www.linkedin.com/in/fayemi-muhammed/}} & Mobile : +2348136211748 \\
+  Abba Johnson, Ikeja, Lagos State, Nigeria & \\
 \end{tabular*}
 
+%-----------SUMMARY-----------------
+\section{Summary}
+Highly dedicated and versatile software engineer with a proven track record in both frontend and backend development, coupled with expertise in various web technologies. Adept at swiftly identifying and resolving complex issues, with excellent debugging skills and a proactive approach to problem solving. Result-oriented engineer who thrives in dynamic team environments. Passionate about continuous learning and eagerly embraces new challenges to drive technology solutions forward.
 
 %-----------SKILLS-----------------
 \section{Technical Skills}
   \resumeSubHeadingListStart
-    \resumeItem{\textbf{Backend:} Python(Django, Flask, FastAPI), Go, Node.js, RESTful APIs, GraphQL, SQLAlchemy, OAuth 2.0, JWT Authentication}
-    \resumeItem{\textbf{Frontend:} JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap, Responsive Design, Component Libraries.}
-    \resumeItem{\textbf{Databases:} MySQL, PostgreSQL, Redis, Database Optimization, Query Performance Tuning}
-    \resumeItem{\textbf{DevOps \& Tools:} Docker, CI/CD Pipelines, Git, Agile/Scrum, RabbitMQ, AWS, Deployment Automation, Code Review Leadership}
+    \resumeItem{\textbf{Backend:} Python(Django, Flask, FastAPI), Go, Node.js, Express.js, TypeScript, RESTful APIs, GraphQL, SQLAlchemy, OAuth 2.0, JWT Authentication}
+    \resumeItem{\textbf{Frontend:} HTML5, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap, Responsive Design, Component Libraries.}
+    \resumeItem{\textbf{Databases:} MySQL, PostgreSQL, MongoDB Redis, Database Optimization, Query Performance Tuning}
+    \resumeItem{\textbf{DevOps \& Tools:} Docker, CI/CD Pipelines, Swagger, Postman, Git, Agile/Scrum, RabbitMQ, WebSocket, Git, AWS, Deployment Automation, MVC, OOP, Code Review Leadership}
   \resumeSubHeadingListEnd
 
 
