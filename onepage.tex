@@ -1,148 +1,170 @@
 %-------------------------
-% One-Page Resume - Optimized for Junior Developer
-% Based on Sourabh Bajaj template
+% One-Page Resume - Google Junior Full-Stack Engineer
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
+\usepackage{xcolor}
 \usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
+\fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Adjust margins for maximum space utilization
-\addtolength{\oddsidemargin}{-0.4in}
-\addtolength{\evensidemargin}{-0.4in}
-\addtolength{\textwidth}{1.1in}
-\addtolength{\topmargin}{-.6in}
-\addtolength{\textheight}{1.2in}
+% Adjust margins for tighter layout
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.6in}
 
 \urlstyle{same}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting - tighter spacing
+% Section formatting - more compact
 \titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+  \large\scshape\raggedright
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-%-------------------------
-% Custom commands - optimized spacing
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-3pt}}
-  }
-}
-
+% Custom commands - more compact
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=12pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-6pt}
+    \end{tabular*}\vspace{-5pt}
 }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 \renewcommand{\labelitemii}{$\circ$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Muhammed Fayemi} & Email: muhammedfayemi@gmail.com\\ 
-  \href{https://www.linkedin.com/in/fayemi-muhammed/}{linkedin.com/in/fayemi-muhammed} & Mobile: +2348136211748 \\
-  Abba Johnson, Ikeja, Lagos State, Nigeria & \\
-\end{tabular*}
-
-%-----------EXPERIENCE-----------------
-\section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Optisoft Technology Company Ltd}{Lagos, Nigeria}
-      {Software Engineer}{January 2025 – June 2025}
-      \resumeItemListStart
-        \resumeItem{Enhanced loan servicing infrastructure for Rosabon Financial Services (CBN licensed), building modules for loan origination, repayment tracking, and credit evaluation workflows}
-        \resumeItem{Spearheaded admin dashboard enabling 30+ staff to manage customer onboarding, loan approvals, and repayments with role-based access control}
-        \resumeItem{Improved backend API response time by 45\% through database schema restructuring, indexed queries, and optimized Django REST serializers}
-        \resumeItem{Integrated automated credit risk checks and compliance flows in line with CBN regulations}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Lasaco Assurance Plc}{Lagos, Nigeria}
-      {Contract Software Engineer}{June 2024 – December 2024}
-      \resumeItemListStart
-        \resumeItem{Migrated legacy claims workflows to digital portal serving 500+ customers monthly, reducing claim processing time by 60\%}
-        \resumeItem{Deployed automated tax engine supporting 10+ regional policies, eliminating manual errors and reducing policy issuance time by 65\% for 1,000+ monthly policies}
-        \resumeItem{Automated creation of 1,000+ policy documents monthly with digital signatures, improving accuracy by 40\% and reducing processing time by 70\%}
-        \resumeItem{Integrated JWT authentication with granular role-based access control, reducing security incidents by 90\%}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Africa Agility}{Lagos, Nigeria}
-      {Software Engineer \& Mentor}{July 2023 – February 2024}
-      \resumeItemListStart
-        \resumeItem{Spearheaded technical bootcamps for 50+ aspiring developers, achieving 80\% completion rate and 60\% job placement success}
-        \resumeItem{Guided 15+ developer teams through project delivery, reviewed 100+ code commits, resulting in 95\% successful project launches}
-        \resumeItem{Created coding guidelines and best practices documentation, reducing onboarding time for new developers by 50\%}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-%-----------SKILLS-----------------
-\section{Technical Skills}
-  \resumeSubHeadingListStart
-    \resumeItem{\textbf{Languages \& Frameworks:} Python (Django, Flask, FastAPI), JavaScript, TypeScript, Go, React.js, Next.js, Node.js, Express.js}
-    \resumeItem{\textbf{Databases \& Tools:} MySQL, PostgreSQL, MongoDB, Redis, Docker, Git, AWS, Postman, RabbitMQ, CI/CD}
-    \resumeItem{\textbf{APIs \& Architecture:} RESTful APIs, GraphQL, JWT Authentication, OAuth 2.0, Microservices, WebSocket}
-  \resumeSubHeadingListEnd
-
-%-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeItem{\textbf{TechMeet.io} – Full-stack event management platform with QR-code ticketing, OAuth integration, and role-based access control. Successfully managed 10+ events with 30+ attendees. \href{https://tech-meet-io.vercel.app/}{Demo} | \href{https://github.com/Muhadev/TechMeet.io}{GitHub}}
-    \resumeItem{\textbf{Nexora} – Component discovery platform aggregating 500+ UI components with AI-powered recommendations via Gemini API, reducing developer search time by 60\%. \href{https://ne-xora.vercel.app/}{Demo} | \href{https://github.com/Muhadev/Nexora}{GitHub}}
-    \resumeItem{\textbf{PayForMe} – Secure crowdfunding platform with Flask and Stripe integration, facilitating donations across multiple campaigns with 99.9\% payment success rate. \href{https://github.com/Muhadev/PayForMe}{GitHub}}
-  \resumeSubHeadingListEnd
+%----------HEADER-----------------
+\begin{center}
+    {\Large \textbf{Muhammed Fayemi}} \\
+    \vspace{2pt}
+    \small \href{mailto:muhammedfayemi@gmail.com}{muhammedfayemi@gmail.com} $|$ 
+    +234-813-621-1748 $|$ 
+    \href{https://github.com/Muhadev}{github.com/muhadev} $|$
+    \href{https://www.linkedin.com/in/fayemi-muhammed/}{linkedin.com/in/fayemi-muhammed} \\
+    Lagos, Nigeria
+\end{center}
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {ALX Africa}{Remote}
-      {Software Engineering Program}{July 2023 – August 2024}
-    \resumeSubheading
-      {Osun State University (UNIOSUN)}{Osogbo, Osun State}
-      {B.Eng in Mechanical Engineering}{October 2017 – November 2022}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Osun State University (UNIOSUN)}{Osogbo, Nigeria}
+    {Bachelor of Engineering in Mechanical Engineering}{Oct 2017 -- Nov 2022}
+  \resumeSubheading
+    {ALX Africa}{Remote}
+    {Software Engineering Certificate Program}{Jul 2023 -- Aug 2024}
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------------
+\section{Technical Skills}
+\begin{minipage}[t]{0.48\textwidth}
+\small{
+\textbf{Programming Languages:} Python, JavaScript, TypeScript, HTML5, CSS3 \\
+\textbf{Frontend \& Backend:} React.js, Next.js, Node.js, Express.js, NestJS, Django, Flask, FastAPI \\
+\textbf{Cloud \& DevOps:} Git, Docker, CI/CD, REST APIs, Postman, Swagger
+}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\small{
+\textbf{Databases \& Caching:} PostgreSQL, MySQL, MongoDB, Redis \\
+\textbf{Testing \& Quality:} Jest, Pytest, Unit Testing, Integration Testing, Code Review \\
+\textbf{Methodologies:} Agile/Scrum, TDD, OOP, MVC, Authentication (JWT, OAuth)
+}
+\end{minipage}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Optisoft Technology Company Ltd}{Lagos, Nigeria}
+    {Software Engineer}{Jan 2025 -- Jun 2025}
+    \resumeItemListStart
+      \resumeItem{Developed loan servicing platform for Rosabon Financial Services using NestJS, NextJS, and PostgreSQL}
+      \resumeItem{Built admin dashboard serving 30+ staff with role-based access control for loan management workflows}
+      \resumeItem{Optimized API performance by 45\% through database schema improvements and query optimization}
+      \resumeItem{Implemented automated credit risk assessment and regulatory compliance features}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Lasaco Assurance Plc}{Lagos, Nigeria}
+    {Contract Software Engineer}{Jun 2024 -- Dec 2024}
+    \resumeItemListStart
+      \resumeItem{Digitized claims processing system serving 500+ monthly customers, reducing processing time by 60\%}
+      \resumeItem{Built automated tax engine supporting 10+ regional policies, decreasing policy issuance time by 65\%}
+      \resumeItem{Automated generation of 1,000+ monthly policy documents with digital signatures}
+      \resumeItem{Implemented JWT authentication with role-based access control, improving security metrics by 90\%}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Africa Agility}{Lagos, Nigeria}
+    {Software Engineer \& Technical Mentor}{Jul 2023 -- Feb 2024}
+    \resumeItemListStart
+      \resumeItem{Designed and delivered technical curriculum for 50+ developers achieving 80\% completion and 60\% job placement rates}
+      \resumeItem{Mentored 15+ cross-functional teams and conducted 100+ code reviews ensuring 95\% successful deployments}
+      \resumeItem{Established development standards and onboarding documentation, reducing new developer ramp-up time by 50\%}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {TechMeet.io - Event Management Platform}{\href{https://tech-meet-io.vercel.app/}{Live Demo} | \href{https://github.com/Muhadev/TechMeet.io}{GitHub}}
+    {Next.js, Django REST, MySQL, OAuth}{}
+    \resumeItemListStart
+      \resumeItem{Built full-stack event platform with QR-code ticketing and role-based access control}
+      \resumeItem{Successfully managed 10+ events with 30+ attendees each, featuring real-time updates and notifications}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Nexora - Component Discovery Platform}{\href{https://ne-xora.vercel.app/}{Live Demo} | \href{https://github.com/Muhadev/Nexora}{GitHub}}
+    {React, Node.js, Gemini API}{}
+    \resumeItemListStart
+      \resumeItem{Developed AI-powered platform aggregating 500+ UI components with intelligent search and recommendations}
+      \resumeItem{Reduced developer component discovery time by 60\% through advanced filtering and categorization}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {PayForMe - Crowdfunding Platform}{\href{https://github.com/Muhadev/PayForMe}{GitHub}}
+    {Flask, Stripe API, PostgreSQL}{}
+    \resumeItemListStart
+      \resumeItem{Created secure crowdfunding platform with multi-campaign support and 99.9\% payment success rate}
+      \resumeItem{Implemented comprehensive payment processing with fraud detection and user verification systems}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
 
 %-----------ACHIEVEMENTS-----------------
 \section{Achievements}
-  \resumeSubHeadingListStart
-    \resumeItem{\textbf{2nd Place – Osun Tech Fest Hackathon 2024:} Led 4-member team in delivering health-tech MVP within 24 hours}
-    \resumeItem{\textbf{2nd Place – RTC Hackathon 2024:} Architected full-stack logistics solution MVP among 20+ competing teams}
-  \resumeSubHeadingListEnd
+\resumeItemListStart
+  \resumeItem{\textbf{2nd Place, Osun Tech Fest Hackathon 2024:} Led 4-member team delivering health-tech MVP in 24 hours}
+  \resumeItem{\textbf{2nd Place, RTC Hackathon 2024:} Architected full-stack logistics solution among 20+ competing teams}
+\resumeItemListEnd
 
-%-------------------------------------------
 \end{document}
