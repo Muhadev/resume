@@ -74,69 +74,68 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Fayemi Muhammed} & Email : muhammedfayemi@gmail.com\\
+  \textbf{\Large Muhammed Fayemi} & Email : muhammedfayemi@gmail.com\\
   \href{https://www.linkedin.com/in/fayemi-muhammed/}{{https://www.linkedin.com/in/fayemi-muhammed/}} & Mobile : +2348136211748 \\
-  Abba Johnson, Ikeja, Lagos State, Nigeria & \\
+  Adeosun street, Ikate, Surulere, Lagos State, Nigeria & \\
 \end{tabular*}
 
 %-----------SUMMARY-----------------
-\section{Summary}
-Highly dedicated and versatile software engineer with a proven track record in both frontend and backend development, coupled with expertise in various web technologies. Adept at swiftly identifying and resolving complex issues, with excellent debugging skills and a proactive approach to problem solving. Result-oriented engineer who thrives in dynamic team environments. Passionate about continuous learning and eagerly embraces new challenges to drive technology solutions forward.
+\section{Professional Summary}
+Full Stack Developer with 3+ years of experience building end-to-end web applications and scalable APIs. Expertise in modern frontend frameworks (React, Next.js) and robust backend systems (Python, Node.js). Proven track record in fintech, insurance, edtech, and SaaS platforms with strong focus on performance optimization, security implementation, and user experience. Experience collaborating with international, remote teams in agile environments.
 
 %-----------SKILLS-----------------
 \section{Technical Skills}
   \resumeSubHeadingListStart
-    \resumeItem{\textbf{Backend:} Python(Django, Flask, FastAPI), Go, Node.js, Express.js, TypeScript, RESTful APIs, GraphQL, SQLAlchemy, OAuth 2.0, JWT Authentication}
-    \resumeItem{\textbf{Frontend:} HTML5, CSS, JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Bootstrap, Responsive Design, Component Libraries.}
-    \resumeItem{\textbf{Databases:} MySQL, PostgreSQL, MongoDB Redis, Database Optimization, Query Performance Tuning}
-    \resumeItem{\textbf{DevOps \& Tools:} Docker, CI/CD Pipelines, Swagger, Postman, Git, Agile/Scrum, RabbitMQ, WebSocket, Git, AWS, Deployment Automation, MVC, OOP, Code Review Leadership}
+    \resumeItem{\textbf{Frontend:} React, Next.js, TypeScript/JavaScript, HTML5, CSS3, Tailwind CSS, Responsive Design, Redux, Context API}
+    \resumeItem{\textbf{Backend:} Python (Django, Flask, FastAPI), Node.js (Express.js, Nest.js), RESTful APIs, WebSockets}
+    \resumeItem{\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Redis}
+    \resumeItem{\textbf{Testing \& Quality:} Jest, Supertest, Mocha, Chai, Pytest, Unit Testing, Integration Testing, E2E Testing}
+    \resumeItem{\textbf{Tools \& DevOps:} Docker, Git, AWS, CI/CD Pipelines, Postman, Swagger/OpenAPI, RabbitMQ}
+    \resumeItem{\textbf{Practices:} Agile/Scrum, TDD, OOP, MVC, Code Review, API Documentation}
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Work Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
       {Optisoft Technology Company Ltd}{Lagos, Nigeria}
-      {Software Engineer}{January 2025 – June 2025}
+      {Full Stack Developer}{January 2025 – June 2025}
       \resumeItemListStart
-        \resumeItem{Built on the existing loan servicing infrastructure of Rosabon Financial Services (RFS), a CBN licensed non bank financial intermediary, enhancing modules for loan origination, repayment tracking, and credit evaluation workflows.}
-        \resumeItem{Spearheaded an admin dashboard enabling 30+ staff to manage customer onboarding, loan approvals, repayments, and access control roles.}
-        \resumeItem{Improved backend API response time by 45\% through database schema restructuring, indexed queries, and optimized Django REST serializers.}
-        \resumeItem{Integrated automated credit risk checks, document verification and compliance flows in line with CBN regulations.}
-        \resumeItem{Co-Led API testing and OpenAPI documentation to support collaborative development in a fast paced agile team.}
-        \resumeItem{Tech Stack: Python, Django, Flask, React, TypeScript, MYSQL,Docker}
+        \resumeItem{Maintained and improved an existing loan servicing platform for Rosabon Financial Services, developing responsive React dashboards and optimizing REST APIs to serve 500+ daily active users.}
+        \resumeItem{Designed and shipped secure comprehensive admin interface with React and Material-UI, enabling 30+ staff to manage customer onboarding, loan approvals, and access control with real-time data synchronization.}
+        \resumeItem{Optimized full-stack performance by 45\% through frontend code splitting, lazy loading, backend database optimization, and API caching strategies.}
+        \resumeItem{Inplemented automated credit risk workflows with frontend forms and backend services, ensuring CBN regulatory compliance.}
+        \resumeItem{Co-led API testing and interactive documentation using Swagger, facilitating seamless frontend-backend integration in agile team environment.}
+        \resumeItem{Collaborated with product/design to scope features and sequence deliveries for reliability and performance.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Lasaco Assurance Plc}{Lagos, Nigeria}
-      {Contract Software Engineer}{June 2024 – December 2024}
+      {Full Stack Developer (Contract)}{June 2024 – December 2024}
       \resumeItemListStart
-        \resumeItem{Modernized Claims Management: Migrated legacy claims workflows to a digital portal serving 500+ customers monthly, reducing claim processing time by 60\% using Django REST Framework and React.}
-        \resumeItem{Deployed Automated Tax Engine: Established tax calculation system supporting 10+ regional tax policies, eliminating manual calculation errors and reducing policy issuance time by 65\% for 1,000+ monthly policies.}
-        \resumeItem{Digitized Document Generation: Automated creation of 1,000+ policy documents monthly with templates and digital signatures, improving accuracy by 40\% and reducing processing time by 70\%.}
-        \resumeItem{Strengthened System Security: Integrated JWT based authentication with granular role based access control for underwriters, claim agents, and clients, reducing security incidents by 90\%.}
-        \resumeItem{Tech Stack: Python, Django, React, FastAPI, Bootstrap, PostgreSQL, Redis, RabbitMQ}
+        \resumeItem{Rebuilt and maintained modern claims management portal serving 500+ customers monthly and reducing processing time by 60\% through intuitive UI/UX design.}
+        \resumeItem{Optimized an automated tax calculation system, supporting 10+ regional policies and processing 1,000+ monthly policies with 65\% faster issuance.}
+        \resumeItem{Designed and developed a digital document generation system with PDF components and backend templates, improving accuracy by 40\% and reducing processing time by 70\%.}
+        \resumeItem{Integrated comprehensive authentication system with JWT tokens, role-based access control, and secure frontend routing, reducing security incidents by 90\%.}
       \resumeItemListEnd
 
     \resumeSubheading
       {ALX Africa}{Remote}
-      {Software Engineering Intern}{September 2024 – December 2024}
+      {Full Stack Engineering Intern}{September 2024 – December 2024}
       \resumeItemListStart
-        \resumeItem{Optimized Student Portal Performance: Refactored lesson tracking and dashboard components, reducing page load times by 40\% and improving user experience for 1,000+ active students.}
-        \resumeItem{Collaborated in Cross Functional Teams: Partnered with 10+ mentors and interns in agile development cycles, delivering 5+ major features and resolving 50+ technical debt issues.}
-        \resumeItem{Tech Stack: Python, Flask, React, Next.js, Tailwindcss, CI/CD Pipelines, TypeScript, MySQL, Redis}
+        \resumeItem{Optimized React based student portal with performance enhancements, code splitting, and state management improvements, reducing page load times by 40\% for 1,000+ active students.}
+        \resumeItem{Collaborated with cross-functional teams using modern development workflows, delivering 5+ full-stack features and resolving 50+ frontend and backend technical debt issues.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Africa Agility}{Lagos, Nigeria}
-      {Software Engineer \& Mentor}{July 2023 – February 2024}
+      {Full Stack Developer \& Technical Mentor}{July 2023 – February 2024}
       \resumeItemListStart
-        \resumeItem{Facilitated Technical Bootcamps: Spearheaded training sessions for 50+ aspiring female developers, achieving 80\% completion rate and 60\% job intern placement success through comprehensive full-stack curriculum.}
-        \resumeItem{Provided Technical Mentorship: Guided 15+ developer teams through project delivery, reviewed 100+ code commits, and coached deployment strategies resulting in 95\% successful project launches.}
-        \resumeItem{Established Development Standards: Created coding guidelines and best practices documentation, reducing onboarding time for new developers by 50\%.}
-        \resumeItem{Tech Stack: React, Node.js, TypeScript, MySQL, Redis, Git}
+        \resumeItem{Led full-stack development training for 50+ aspiring developers, covering full stack technology, database integration with 80\% completion rate and 60\% job placement success.}
+        \resumeItem{Mentored 15+ developer teams through end-to-end project delivery, reviewing frontend components, backend APIs, and deployment strategies with 95\% successful launches.}
+        \resumeItem{Established full-stack coding standards and documentation, reducing onboarding time by 50\% and improving code consistency across frontend and backend teams.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -155,23 +154,23 @@ Highly dedicated and versatile software engineer with a proven track record in b
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
+\section{Full Stack Projects \& Open Source}
   \resumeSubHeadingListStart
-    \resumeItem{TechMeet.io – Tech Event Management Platform — \href{https://tech-meet-io.vercel.app/}{Demo} | \href{https://github.com/Muhadev/TechMeet.io}{GitHub}: Architected full-stack event management platform with QR-code ticketing system, OAuth integration, and role-based access control, successfully managing 10+ events with 30+ attendees.}
-    \resumeItem{Nexora – Unified Component Explorer — \href{https://ne-xora.vercel.app/}{Demo} | \href{https://github.com/Muhadev/Nexora}{GitHub}: Developed component discovery platform aggregating 500+ UI components from Shadcn/UI, Magic UI, and Aceternity UI, reducing developer search time by 60\% with AI-powered recommendations via Gemini API integration.}
-    \resumeItem{PayForMe – Crowdfunding Platform — Demo | \href{https://github.com/Muhadev/PayForMe}{GitHub}: Created secure donation platform with Flask and Stripe integration, facilitating \$10+ in donations across 2+ campaigns with 99.9\% payment success rate and real-time progress tracking.}
-    \resumeItem{Simple Shell – Custom Unix Shell — \href{https://github.com/Muhadev/simple_shell}{GitHub}: Collaborated on C-based command interpreter supporting advanced features like piping, redirection, and built-in commands, demonstrating systems programming expertise and effective team collaboration.}
-    \resumeItem{CryptoApp – Cryptocurrency Dashboard — \href{https://kryptoeverseapp.netlify.app/}{Demo} | \href{https://github.com/Muhadev/react-redux-cryptoapp}{GitHub}: Developed React + Redux dashboard with real-time cryptocurrency data and news integration from Coinranking/Bing APIs, featuring interactive charts and advanced filtering capabilities.}
-    \resumeItem{ImageKit – Image Optimization Tool — \href{https://image-kit-gold.vercel.app/}{Demo} | \href{https://github.com/Muhadev/image-kit}{GitHub}: Designed React-based image processing application with compression and cropping features, achieving 40\% average file size reduction while maintaining quality standards.}
+    \resumeItem{TechMeet.io – Event Management Platform — \href{https://tech-meet-io.vercel.app/}{Demo} | \href{https://github.com/Muhadev/TechMeet.io}{GitHub}: Full-stack React/Node.js platform with QR-code ticketing, OAuth integration, and role-based dashboards. Successfully managed 10+ events with 30+ attendees using responsive design and real-time updates.}
+    \resumeItem{Nexora – Component Explorer — \href{https://ne-xora.vercel.app/}{Demo} | \href{https://github.com/Muhadev/Nexora}{GitHub}: Next.js application with Tailwind CSS showcasing 500+ UI components from popular libraries. Features AI-powered search via Gemini API integration, reducing developer discovery time by 60\%.}
+    \resumeItem{PayForMe – Crowdfunding Platform — Demo | \href{https://github.com/Muhadev/PayForMe}{GitHub}: React frontend with Flask backend and Stripe integration. Secure donation processing with real-time progress tracking, facilitating \$10+ in donations with 99.9\% payment success rate.}
+    \resumeItem{CryptoApp – Cryptocurrency Dashboard — \href{https://kryptoeverseapp.netlify.app/}{Demo} | \href{https://github.com/Muhadev/react-redux-cryptoapp}{GitHub}: React + Redux application with responsive charts, real-time data from Coinranking API, and advanced filtering. Optimized for mobile and desktop experiences.}
+    \resumeItem{ImageKit – Image Processing Tool — \href{https://image-kit-gold.vercel.app/}{Demo} | \href{https://github.com/Muhadev/image-kit}{GitHub}: React-based SPA with drag-drop interface, client-side image compression and cropping, achieving 40\% average file size reduction with maintained quality.}
+    \resumeItem{Simple Shell – Unix Shell Implementation — \href{https://github.com/Muhadev/simple_shell}{GitHub}: C-based command interpreter with advanced features including piping and redirection, demonstrating systems programming and collaborative development skills.}
   \resumeSubHeadingListEnd
   
 %-----------ACHIEVEMENTS-----------------
 \section{Leadership \& Achievements}
   \resumeSubHeadingListStart
-    \resumeItem{Committee Member – Google Developer Group (GDG) Osogbo: Organized 5+ technical events and coordinated DevFest 2024 logistics, engaging 200+ developers and fostering community growth in local tech ecosystem.}
-    \resumeItem{2nd Place – Osun Tech Fest Hackathon 2024: Led 4-member development team in delivering health-tech MVP within 24 hours, demonstrating rapid prototyping and leadership capabilities under pressure.}
-    \resumeItem{2nd Place – RTC Hackathon 2024: Architected full-stack logistics solution MVP, securing 2nd position among 20+ competing teams through innovative technical execution.}
-    \resumeItem{Technical Mentor: Successfully guided 15+ new developers through career transitions, with 90\% achieving successful intern job placements in tech companies within 6 months.}
+    \resumeItem{Committee Member – Google Developer Group (GDG) Osogbo: Organized 5+ technical events including DevFest 2024, engaging 200+ developers and promoting full-stack development practices in the local tech ecosystem.}
+    \resumeItem{2nd Place – Osun Tech Fest Hackathon 2024: Led 4-member team in developing health-tech MVP with React frontend and Node.js backend within 24 hours, demonstrating rapid full-stack prototyping capabilities.}
+    \resumeItem{2nd Place – RTC Hackathon 2024: Architected comprehensive logistics platform with modern web technologies, securing 2nd position among 20+ teams through innovative full-stack solution design.}
+    \resumeItem{Technical Mentor: Guided 15+ developers through full-stack career transitions, achieving 90\% successful job placement rate within 6 months through comprehensive frontend and backend training.}
   \resumeSubHeadingListEnd
 
 
